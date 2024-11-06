@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="hhtp://www.w3.org/1999/xhtml ">
+<head>
+          <meta charset="utf-8" />
+          <title>Student Enrollment Form</title>
+</head>
+<body bgcolor= lavender>
+          <form action="/submit-data" method="post">
+                    <p><Strong>STUDENT DETAILS</Strong></p>
+                    First Name:<input name="FirstName" type="text"/> <br/><br/>
+                    Last Name:<input name="LastName" type="text" /> <br /><br />
+                    Email: &emsp;&emsp;  <input type="email" id="emailid" name="email"/> <br /><br />
+                    Age: &emsp;&emsp; &ensp; <input name="myAge" type="text"/> <br />
+
+                    <p>Please select your gender</p>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="ther" name="gender" value="other">
+                    <label for="other">Other</label>
+
+                    <p> Qualifications </p>
+                    <input type="checkbox" name="Qual" value="GSCE"> GCSE <br/>
+                    <input type="checkbox" name="Qual" value="A-level"> A-level <br />
+                    <input type="checkbox" name="Qual" value="Higher National Certficate"> Higher National Certificate/Level 4 <br />
+                    <input type="checkbox" name="Qual" value="HND"> Foundation Degree/HND/DipHE/Level 5 <br />
+                    <input type="checkbox" name="Qual" value="B.Sc"> Bachelor Degree/Grdauate diploma or Certificate/Level 6 <br />
+                    <input type="checkbox" name="Qual" value="Master Degree"> Master Degree/PGCE/Level 17 <br />
+                    <input type="checkbox" name="Qual" value="PhD"> PhD/levwl 18 <br />
+                    <input type="submit"/>
+          </form>
+</body>
+</html>
